@@ -6,6 +6,10 @@
 
 require('./bootstrap');
 
+window.moment =  require('moment-timezone');
+// moment().tz("Asia/Manila").format();
+
+
 window.Vue = require('vue').default;
 
 /**
@@ -29,4 +33,7 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 
 const app = new Vue({
     el: '#app',
+    components:{
+        'place-search': ()=>import('./views/PlaceSearch.vue')
+    }
 });
