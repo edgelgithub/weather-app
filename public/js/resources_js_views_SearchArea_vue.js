@@ -205,6 +205,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
@@ -574,7 +575,16 @@ var render = function () {
                                     ]),
                                   ]),
                                   _vm._v(" "),
-                                  _vm._m(1),
+                                  _c("div", { staticClass: "services-ion" }, [
+                                    _c("img", {
+                                      attrs: {
+                                        src:
+                                          "http://openweathermap.org/img/wn/" +
+                                          _vm.weatherData.weather[0].icon +
+                                          "@2x.png",
+                                      },
+                                    }),
+                                  ]),
                                   _vm._v(" "),
                                   _c("div", { staticClass: "services-cap" }, [
                                     _c("h5", [
@@ -619,14 +629,6 @@ var staticRenderFns = [
           _c("p", [_vm._v("Where would you like to go?")]),
         ]),
       ]),
-    ])
-  },
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "services-ion" }, [
-      _c("span", { staticClass: "flaticon-good" }),
     ])
   },
 ]

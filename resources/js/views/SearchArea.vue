@@ -24,9 +24,10 @@
                                     <div class="services-cap">
                                         <h3>{{  placeTitle  }}</h3>
                                         <h5> Temp  {{  weatherData.main.temp }} &#8451; </h5>
-                                    </div>
+                                             </div>
                                     <div class="services-ion">
-                                        <span class="flaticon-good"></span>
+                                        <img :src="'http://openweathermap.org/img/wn/'+weatherData.weather[0].icon+'@2x.png'"></img>
+                               
                                     </div>
                                     <div class="services-cap">
                                         <h5>        {{  weatherData.weather[0].description | capitalized }}</h5>
