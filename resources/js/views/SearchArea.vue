@@ -8,7 +8,7 @@
                 <div class="row">
                     <div class="col-xl-9 col-lg-9 col-md-9">
                         <div class="hero__caption">
-                            <h1>Find your <span>Next tour!</span> </h1>
+                            <h1>Welcome to <span>Japan!</span> </h1>
                             <p>Where would you like to go?</p>
                         </div>
                     </div>

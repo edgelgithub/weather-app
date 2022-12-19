@@ -33,7 +33,7 @@
 <script>
 export default{
     name:'search-box',
-    props:['_weatherData'],
+    props:['_weatherData','_placeTitle'],
     data(){
         return {
             hideResult:false,
@@ -64,7 +64,7 @@ export default{
            console.log(this.weatherData);
         },         
          selectCity(loc){
-         
+            this.$emit('update:_placeTitle', loc.properties.city+ ', '+ loc.properties.country); 
             this.location=loc.properties.formatted;
             var requestOptions = {
                 method: 'GET',

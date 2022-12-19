@@ -56,7 +56,7 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: 'search-box',
-  props: ['_weatherData'],
+  props: ['_weatherData', '_placeTitle'],
   data: function data() {
     return {
       hideResult: false,
@@ -91,6 +91,7 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
     },
     selectCity: function selectCity(loc) {
       var _this2 = this;
+      this.$emit('update:_placeTitle', loc.properties.city + ', ' + loc.properties.country);
       this.location = loc.properties.formatted;
       var requestOptions = {
         method: 'GET'
@@ -613,7 +614,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "row" }, [
       _c("div", { staticClass: "col-xl-9 col-lg-9 col-md-9" }, [
         _c("div", { staticClass: "hero__caption" }, [
-          _c("h1", [_vm._v("Find your "), _c("span", [_vm._v("Next tour!")])]),
+          _c("h1", [_vm._v("Welcome to "), _c("span", [_vm._v("Japan!")])]),
           _vm._v(" "),
           _c("p", [_vm._v("Where would you like to go?")]),
         ]),
