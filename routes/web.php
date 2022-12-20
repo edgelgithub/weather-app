@@ -16,3 +16,13 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+
+Route::prefix('places')->group(function(){
+    Route::view('/tokyo','places.tokyo')->name('places.tokyo');
+    Route::view('/yokohama','places.yokohama')->name('places.yokohama');
+    Route::view('/kyoto','places.kyoto')->name('places.kyoto');
+    Route::view('/osaka','places.osaka')->name('places.osaka');
+    Route::view('/sapporo','places.sapporo')->name('places.sapporo');
+    Route::view('/nagoya','places.nagoya')->name('places.nagoya');
+
+});

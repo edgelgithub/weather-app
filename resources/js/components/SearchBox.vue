@@ -22,7 +22,7 @@
                     </div>
                     
                     <div class="search-form mb-30 col-xl-6">
-                        <a href="#" @click.prevent="placeSearch" @keypup.enter="placeSearch">Search</a>
+                        <a href="#" @click.prevent="placeSearch" @keypup.enter="placeSearch">Check Weather</a>
                     </div>	
                     
                 </form>	

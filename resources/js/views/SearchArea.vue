@@ -20,7 +20,7 @@
                         <div class="row d-flex justify-content-center">
                             
                             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 ">
-                                <div class="single-services text-center mb-30 bg-white">
+                                <div class="single-services text-center mb-30 bg-light">
                                     <div class="services-cap">
                                         <h3>{{  placeTitle  }}</h3>
                                         <h5> Temp  {{  weatherData.main.temp }} &#8451; </h5>

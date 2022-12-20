@@ -475,7 +475,7 @@ var render = function () {
                   },
                 },
               },
-              [_vm._v("Search")]
+              [_vm._v("Check Weather")]
             ),
           ]),
         ]
@@ -560,7 +560,7 @@ var render = function () {
                                 "div",
                                 {
                                   staticClass:
-                                    "single-services text-center mb-30 bg-white",
+                                    "single-services text-center mb-30 bg-light",
                                 },
                                 [
                                   _c("div", { staticClass: "services-cap" }, [
