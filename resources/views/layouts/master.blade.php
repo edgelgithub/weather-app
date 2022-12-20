@@ -45,22 +45,9 @@
                                 <div class="main-menu f-right d-none d-lg-block">
                                     <nav>               
                                         <ul id="navigation">                                                                                                                                     
-                                         <li><a href="index.html">Home</a></li>
-                                         <li><a href="index.html">Places</a></li>
-                                               {{-- <li><a href="about.html">About US</a></li>
-                                            <li><a href="packages.html">Package</a></li>
-                                            <li><a href="blog.html">Blog</a>
-                                                <ul class="submenu">
-                                                    <li><a href="blog.html">Blog</a></li>
-                                                    <li><a href="single-blog.html">Blog Details</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#">Pages</a>
-                                                <ul class="submenu">
-                                                    <li><a href="elements.html">Element</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="contact.html">Contact Us</a></li> --}}
+                                         <li><a href="/">Home</a></li>
+                                       
+                                            
                                         </ul>
                                     </nav>
                                 </div>

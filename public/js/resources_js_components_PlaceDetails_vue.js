@@ -30,6 +30,19 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: 'place-details',
@@ -158,20 +171,35 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("ul", { staticClass: "blog-info-link mt-3 mb-4" }, [
-      _c("li", [
-        _c("a", { attrs: { href: "#" } }, [
-          _c("i", { staticClass: "fa fa-user" }),
-          _vm._v(" Travel, Lifestyle"),
-        ]),
-      ]),
-      _vm._v(" "),
-      _c("li", [
-        _c("a", { attrs: { href: "#" } }, [
-          _c("i", { staticClass: "fa fa-comments" }),
-          _vm._v(" 03 Comments"),
-        ]),
-      ]),
+    return _c("div", { staticClass: "col-xl-4 col-lg-4 col-md-4 col-sm-6" }, [
+      _c(
+        "div",
+        { staticClass: "single-services text-center mb-30 bg-primary p-3" },
+        [
+          _c("div", { staticClass: "services-cap" }, [
+            _c("h5", [_vm._v(" Temp  11.53 ℃ ")]),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "services-ion" }, [
+            _c("img", {
+              attrs: { src: "http://openweathermap.org/img/wn/04d@2x.png" },
+            }),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "services-cap" }, [
+            _c("h5", { staticClass: "text-white" }, [
+              _vm._v("        Broken clouds"),
+            ]),
+            _vm._v(" "),
+            _c("h5", [
+              _c("i", { staticClass: "fa fa-tint" }),
+              _vm._v("Humidity 37%"),
+            ]),
+            _vm._v(" "),
+            _c("h5", [_vm._v(" Wind speed  2.99km/h ")]),
+          ]),
+        ]
+      ),
     ])
   },
 ]

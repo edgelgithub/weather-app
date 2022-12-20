@@ -475,7 +475,7 @@ var render = function () {
                   },
                 },
               },
-              [_vm._v("Check Weather")]
+              [_vm._v("Search")]
             ),
           ]),
         ]

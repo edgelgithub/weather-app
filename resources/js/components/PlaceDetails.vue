@@ -6,10 +6,23 @@
                 </div>
                 <div class="blog_details">
                    <h2>{{ title }}</h2>
-                   <ul class="blog-info-link mt-3 mb-4">
-                      <li><a href="#"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
-                      <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
-                   </ul>
+                   
+                   <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+                 
+                        <div class="single-services text-center mb-30 bg-primary p-3 ">
+                            <div class="services-cap">
+                                <h5> Temp  11.53 ℃ </h5></div>
+                            <div class="services-ion">
+                                <img src="http://openweathermap.org/img/wn/04d@2x.png">
+                            </div> 
+                            <div class="services-cap">
+                                <h5 class="text-white">        Broken clouds</h5>
+                                <h5> <i class="fa fa-tint"></i>Humidity 37%</h5>
+                                <h5> Wind speed  2.99km/h </h5>
+                                              
+                            </div>
+                        </div>
+                    </div>
                    <slot></slot>
                 
                 </div>
