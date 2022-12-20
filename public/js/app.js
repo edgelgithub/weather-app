@@ -5078,6 +5078,12 @@ var app = new Vue({
   components: {
     'search-area': function searchArea() {
       return __webpack_require__.e(/*! import() */ "resources_js_views_SearchArea_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./views/SearchArea.vue */ "./resources/js/views/SearchArea.vue"));
+    },
+    'place-slider': function placeSlider() {
+      return __webpack_require__.e(/*! import() */ "resources_js_components_PlaceSlider_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./components/PlaceSlider.vue */ "./resources/js/components/PlaceSlider.vue"));
+    },
+    'place-details': function placeDetails() {
+      return __webpack_require__.e(/*! import() */ "resources_js_components_PlaceDetails_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./components/PlaceDetails.vue */ "./resources/js/components/PlaceDetails.vue"));
     }
   }
 });
@@ -73135,7 +73141,7 @@ module.exports = JSON.parse('{"version":"2022g","zones":["Africa/Abidjan|LMT GMT
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames not based on template
-/******/ 			if (chunkId === "resources_js_views_SearchArea_vue") return "js/" + chunkId + ".js";
+/******/ 			if ({"resources_js_views_SearchArea_vue":1,"resources_js_components_PlaceSlider_vue":1,"resources_js_components_PlaceDetails_vue":1}[chunkId]) return "js/" + chunkId + ".js";
 /******/ 			// return url for filenames based on template
 /******/ 			return undefined;
 /******/ 		};

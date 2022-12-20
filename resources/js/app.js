@@ -34,6 +34,8 @@ window.Vue = require('vue').default;
 const app = new Vue({
     el: '#app',
     components:{
-        'search-area': ()=>import('./views/SearchArea.vue')
+        'search-area': ()=>import('./views/SearchArea.vue'),
+        'place-slider': ()=>import('./components/PlaceSlider.vue'),
+        'place-details': ()=>import('./components/PlaceDetails.vue'),
     }
 });
