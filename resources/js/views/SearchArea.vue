@@ -3,7 +3,7 @@
   
     <!-- Mobile Menu -->
     <div class="slider-active">
-        <div class="single-slider hero-overly  slider-height d-flex align-items-center" style="background-image:url('img/hero/h1_hero.jpg')">
+        <div class="single-slider hero-overly  slider-height d-flex align-items-center" style="background-image:url('img/places/home.jpg')">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-9 col-lg-9 col-md-9">

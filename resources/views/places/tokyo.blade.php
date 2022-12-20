@@ -11,7 +11,7 @@
  <section class="blog_area single-post-area section-padding">
     <div class="container">
        <div class="row">
-         <place-details :background-url="'/img/blog/single_blog_1.png'"  :title="'Tokyo'"  :long="139.6503" :lat="35.6762">
+         <place-details :background-url="'/img/places/tokyo.jpg'"  :title="'Tokyo'"  :long="139.6503" :lat="35.6762">
             <p class="excert">
                 Tokyo, Japan’s busy capital, mixes the ultramodern and the traditional, from neon-lit skyscrapers to historic temples. 
                 The opulent Meiji Shinto Shrine is known for its towering gate and surrounding woods. 

@@ -11,7 +11,7 @@
  <section class="blog_area single-post-area section-padding">
     <div class="container">
        <div class="row">
-         <place-details :background-url="'/img/blog/single_blog_1.png'"  :title="'Yokohama'" :long="139.638" :lat="35.4437">
+         <place-details :background-url="'/img/places/yokohama.jpg'"  :title="'Yokohama'" :long="139.638" :lat="35.4437">
             <p class="excert">
                 Yokohama (Japanese: 横浜, pronounced [yokohama] (listen)) is the second-largest city in Japan by population[1] and the most populous municipality of Japan. 
                 It is the capital city and the most populous city in Kanagawa Prefecture, with a 2020 population of 3.8 million. 

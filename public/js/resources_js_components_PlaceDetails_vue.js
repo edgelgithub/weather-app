@@ -340,7 +340,10 @@ var render = function () {
       _vm.weatherData
         ? _c(
             "div",
-            { staticClass: "single-services text-center mb-30 bg-light p-3" },
+            {
+              staticClass:
+                "single-services text-center mb-30 bg-light p-3 border",
+            },
             [
               _c("div", { staticClass: "services-cap" }, [
                 _c("h6", [

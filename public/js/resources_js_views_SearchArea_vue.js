@@ -482,7 +482,7 @@ var render = function () {
         {
           staticClass:
             "single-slider hero-overly slider-height d-flex align-items-center",
-          staticStyle: { "background-image": "url('img/hero/h1_hero.jpg')" },
+          staticStyle: { "background-image": "url('img/places/home.jpg')" },
         },
         [
           _c(

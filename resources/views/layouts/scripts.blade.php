@@ -24,13 +24,6 @@
 <script src="{{ asset('js/jquery.nice-select.min.js') }}"></script>
 <script src="{{ asset('js/jquery.sticky.js') }}"></script>
 
-<!-- contact js -->
-{{-- <script src="{{ asset('js/contact.js') }}"></script>
-<script src="{{ asset('js/jquery.form.js') }}"></script>
-<script src="{{ asset('js/jquery.validate.min.js') }}"></script>
-<script src="{{ asset('js/mail-script.js') }}"></script>
-<script src="{{ asset('js/jquery.ajaxchimp.min.js') }}"></script> --}}
 
-<!-- Jquery Plugins, main Jquery -->	
 <script src="{{ asset('js/plugins.js') }}"></script>
 <script src="{{ asset('js/main.js') }}"></script>

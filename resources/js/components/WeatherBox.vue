@@ -1,7 +1,7 @@
 <template>
     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 my-5" >
                  
-        <div class="single-services text-center mb-30 bg-light p-3 " v-if="weatherData">
+        <div class="single-services text-center mb-30 bg-light p-3  border" v-if="weatherData">
             <div class="services-cap">
                      <h6> Temp  {{ weatherData.main.temp }} ℃ </h6>
                    

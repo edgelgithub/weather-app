@@ -11,7 +11,7 @@
  <section class="blog_area single-post-area section-padding">
     <div class="container">
        <div class="row">
-         <place-details :background-url="'/img/blog/single_blog_1.png'"  :title="'Nagoya'" :long="136.9066" :lat="35.1815">
+         <place-details :background-url="'/img/places/nagoya.jpg'"  :title="'Nagoya'" :long="136.9066" :lat="35.1815">
             <p class="excert">
                 Nagoya, capital of Japan’s Aichi Prefecture, is a manufacturing and shipping hub in central Honshu. 
                 The city’s Naka ward is home to museums and pachinko (gambling machine) parlors. 
