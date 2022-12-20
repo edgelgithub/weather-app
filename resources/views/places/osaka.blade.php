@@ -11,7 +11,7 @@
  <section class="blog_area single-post-area section-padding">
     <div class="container">
        <div class="row">
-         <place-details :background-url="'/img/blog/single_blog_1.png'"  :title="'Osaka'">
+         <place-details :background-url="'/img/blog/single_blog_1.png'"  :title="'Osaka'" :long="135.5023" :lat="34.6937">
             <p class="excert">
                 Osaka is a large port city and commercial center on the Japanese island of Honshu. 
                 It's known for its modern architecture, nightlife and hearty street food. 

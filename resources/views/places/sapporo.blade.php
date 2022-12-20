@@ -11,7 +11,7 @@
  <section class="blog_area single-post-area section-padding">
     <div class="container">
        <div class="row">
-         <place-details :background-url="'/img/blog/single_blog_1.png'"  :title="'Sapporo'">
+         <place-details :background-url="'/img/blog/single_blog_1.png'"  :title="'Sapporo'"  :long="141.3545" :lat="43.0618">
             <p class="excert">
                 Sapporo, capital of the mountainous northern Japanese island of Hokkaido, is famous for its beer, skiing and annual Sapporo Snow Festival featuring enormous ice sculptures. 
                 The Sapporo Beer Museum traces the city’s brewing history and has tastings and a beer garden. 

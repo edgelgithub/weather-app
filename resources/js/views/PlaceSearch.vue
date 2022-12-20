@@ -13,8 +13,8 @@
         <h3>{{  location }}</h3>
         {{  currentTime }} / 
         <div v-if="readableTime!=null">
-            dfdsf
-                {{  readableTime.weather[0].description }}
+            
+                {{  readableTime.weather[0].main }}
         </div>
         <!-- {{ forecast  }} -->
     </div> 

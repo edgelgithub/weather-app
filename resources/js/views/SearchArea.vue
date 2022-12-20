@@ -14,7 +14,7 @@
                     </div>
                 </div>
                 <search-box :_weather-data.sync="weatherData" :_place-title.sync="placeTitle"></search-box>
-                
+          
                 <div class="our-services pt-5"  v-if="weatherData!=null && weatherData.weather!==undefined">
                     <div class="container">
                         <div class="row d-flex justify-content-center">
