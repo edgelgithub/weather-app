@@ -82,7 +82,6 @@ export default{
     },
     watch:{ 
         query:function(newVal,oldVal){
-            console.log(newVal)
           
                 this.result = [];
 

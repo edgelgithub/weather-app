@@ -48,7 +48,6 @@
         methods:{
             handleError(error){
                 this.hasError=true; 
-                console.log(this.hasError, error)
                 console.log('error', error)
             },
           
